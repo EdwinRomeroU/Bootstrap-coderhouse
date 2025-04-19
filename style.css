@@ -1,0 +1,24 @@
+@media (max-width: 670px){
+    .custom-style{
+        font-family: sans-serif;
+        color: black;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 860px){
+    .custom-style{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+    }
+}
+
+@media (min-width: 861px){
+    .custom-style{
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+}
+
+.div-hover:hover{
+    background-color: black;
+}
